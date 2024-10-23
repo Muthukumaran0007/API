@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Checker</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Holiday Checker</h1>
+        <label for="countryInput">Country Code (e.g., US):</label>
+        <input type="text" id="countryInput" placeholder="Enter country code">
+
+        <label for="dateInput">Date (YYYY-MM-DD):</label>
+        <input type="date" id="dateInput" placeholder="Enter date">
+
+        <button onclick="fetchHoliday()">Check Holiday</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="api.js"></script>
+</body>
+</html>
+
+
+
+
+
+
